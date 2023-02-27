@@ -30,7 +30,7 @@ function Header() {
                 <Link href=''>Contact</Link>
             </Flex>
             <Box float={"right"} display={{ lg:"initial",base:'none' }}>
-                <Button mt='10px' size='lg' colorScheme='teal' float='right'>Apply</Button>
+                <Button mt='5px'  size='lg' fontWeight={'bold'} colorScheme='purple' float='right'>Apply</Button>
             </Box>
             <Box pt={'8px'} pl='120px' p={'none'} display={{lg:'none', base:'initial'}} >
             <Menu>
