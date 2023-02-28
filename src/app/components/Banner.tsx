@@ -22,15 +22,17 @@ const Banner = () => {
             </Flex>
         </Container>
     </Box>
-    <Box bg='gray.200'>
+    <Box bg='gray.200' >
         
-            <Container maxW={1400}>
-            <Flex flexBasis='50%'>
-                <Box flexBasis='50%'><Image src={Pic2} alt='animated character holding laptop' width='500' height='150'></Image></Box>
+            <Container m={{base:'40px 40px 0px 40px'}} maxW={1400}>
+            <Flex flexBasis='50%' flexDir={{base:"column-reverse", lg:"row"}} >
+                <Box flexBasis='50%' mt={{base:'30px'}}>
+                    <Image src={Pic2} alt='animated character holding laptop' width='500' height='150'></Image>
+                </Box>
                 <Box pr='40px' pt={'50px'} flexBasis='50%'>
                     <Heading  size={'2xl'}>Program Of Studies</Heading>
                     <Text pt='20px' pr='40px'>This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.</Text>
-                    <Button mt='20px' size='lg' colorScheme='blue'>Read More</Button>
+                    <Button mt='20px' size={{lg:'lg',base:'md'}} colorScheme='blue'>Read More</Button>
                 </Box>
             </Flex>
             </Container>
